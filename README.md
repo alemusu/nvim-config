@@ -1,8 +1,7 @@
 # Neovim personal configuration
 This is a personal project, a text editor I use for programming using Mason to use LSPs. It's very simple and modular.
 ## Structure
-<img width="875" height="461" alt="image" src="https://github.com/user-attachments/assets/af747551-e68b-4e3f-b6f3-ec92a52977a9" />
-\
+<img width="875" height="461" alt="image" src="https://github.com/user-attachments/assets/af747551-e68b-4e3f-b6f3-ec92a52977a9" />\
 The main file is the init.lua which initializes the package manager (Lazy) to import the plugins from the folder plugins and 
 then requires the files from the folder "core", with the settings and keymaps I've created. \
 The colors are from the old Vim, I exported them into a file unokai.vim to use them as colorscheme. The background is semi transparent 
